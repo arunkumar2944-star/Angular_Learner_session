@@ -1,4 +1,4 @@
-<nav class="fixed top-0 w-full ml-0 z-50">
+<nav class="fixed h-17 top-0 w-full ml-0 z-50">
   <ul  class="h-17 flex items-center w-full  px-5 py-2 text-emerald-50 bg-gray-600 justify-between shadow shadow-gray-400">
     <li class="flex gap-2  items-center">
      <img
@@ -10,83 +10,14 @@
     <li class="text-xl font-semibold">Welcome Arun</li>
 
   </ul>
-<app-side-bar></app-side-bar>
 </nav>
+
 <section class="mt-16 flex w-full ml-0">
-  <nav class="w-3xs py-5 min-w-3xs sticky top-16 h-[calc(100vh-4rem)]  text-emerald-50 bg-gray-600"></nav>
+
+  <nav class="w-3xs py-5 min-w-3xs sticky top-16 h-[calc(100vh-4rem)]  text-emerald-50 bg-gray-600">
+    <app-side-bar></app-side-bar>
+  </nav>
   <main class="p-5 w-full">
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
-    test<br>
+  <app-heading [user]="user" (success)="onSuccess($event)"></app-heading>
   </main>
 </section>
